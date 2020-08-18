@@ -1,0 +1,14 @@
+In line number 12 of your output:
+The output should be:
+*****  Available spots: 2    *****
+                        ^
+But your output is: 
+*****  Available spots: 94531846 *****
+                        ^
+
+Unmatched character details:
+The character in column 25 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [9] ASCII code(57)
+

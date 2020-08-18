@@ -1,0 +1,420 @@
+Script started on Sun 09 Aug 2020 01:08:39 AM EDT
+==191520== Memcheck, a memory error detector
+==191520== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==191520== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==191520== Command: ms
+==191520== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Pass 1: ------->
+****** Seneca Valet Parking ******
+*****  Available spots: 94531846 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > a 1
+
+Car Information Entry
+Enter License Plate Number: abc123
+Enter Make and Model: abc123
+Carwash while parked? (Y)es/(N)o: y
+Parking Ticket
+Vehicle type: Car
+Parking Spot Number: 10
+License Plate: ABC123
+Make and Model: abc123
+With Carwash
+****** Seneca Valet Parking ******
+*****  Available spots: 94531845 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 1
+
+Car Information Entry
+Enter License Plate Number: abcd123
+Enter Make and Model: abcd123
+Carwash while parked? (Y)es/(N)o: y
+Parking Ticket
+Vehicle type: Car
+Parking Spot Number: 11
+License Plate: ABCD123
+Make and Model: abcd123
+With Carwash
+****** Seneca Valet Parking ******
+*****  Available spots: 94531844 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 1
+
+Car Information Entry
+Enter License Plate Number: abc2134
+Enter Make and Model: abcv234
+Carwash while parked? (Y)es/(N)o: y
+Parking Ticket
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: ABC2134
+Make and Model: abcv234
+With Carwash
+****** Seneca Valet Parking ******
+*****  Available spots: 94531843 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 3
+*** List of parked vehicles ***
+Vehicle type: Car
+Parking Spot Number: 1
+License Plate: ASD123
+Make and Model: Honda Civic
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 2
+License Plate: AS12
+Make and Model: Honda 125
+With Sidecar
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 3
+License Plate: QWE123
+Make and Model: BMW 320
+With Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 4
+License Plate: ZXC123
+Make and Model: Suzuki 750
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 5
+License Plate: ASDASD
+Make and Model: Ford F150
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 6
+License Plate: ZXC
+Make and Model: Ninja 650
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 7
+License Plate: QWE
+Make and Model: Ninja H2
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 8
+License Plate: GVAA123
+Make and Model: Tesla Model 3
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 9
+License Plate: QWEASD
+Make and Model: Cadilac XT5
+Without Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 10
+License Plate: ABC123
+Make and Model: abc123
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 11
+License Plate: ABCD123
+Make and Model: abcd123
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: ABC2134
+Make and Model: abcv234
+With Carwash
+-------------------------------
+****** Seneca Valet Parking ******
+*****  Available spots: 94531843 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 2
+Return Vehicle
+Enter License Plate Number: abcd123
+Returning: Vehicle type: Car
+Parking Spot Number: 11
+License Plate: ABCD123
+Make and Model: abcd123
+With Carwash
+****** Seneca Valet Parking ******
+*****  Available spots: 94531844 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 3
+*** List of parked vehicles ***
+Vehicle type: Car
+Parking Spot Number: 1
+License Plate: ASD123
+Make and Model: Honda Civic
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 2
+License Plate: AS12
+Make and Model: Honda 125
+With Sidecar
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 3
+License Plate: QWE123
+Make and Model: BMW 320
+With Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 4
+License Plate: ZXC123
+Make and Model: Suzuki 750
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 5
+License Plate: ASDASD
+Make and Model: Ford F150
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 6
+License Plate: ZXC
+Make and Model: Ninja 650
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 7
+License Plate: QWE
+Make and Model: Ninja H2
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 8
+License Plate: GVAA123
+Make and Model: Tesla Model 3
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 9
+License Plate: QWEASD
+Make and Model: Cadilac XT5
+Without Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 10
+License Plate: ABC123
+Make and Model: abc123
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: ABC2134
+Make and Model: abcv234
+With Carwash
+-------------------------------
+****** Seneca Valet Parking ******
+*****  Available spots: 94531844 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 1
+    Select type of the vehicle:
+    1- Car
+    2- Motorcycle
+    3- Cancel
+    > 1
+
+Car Information Entry
+Enter License Plate Number: abc1234
+Enter Make and Model: abc1234
+Carwash while parked? (Y)es/(N)o: y
+Parking Ticket
+Vehicle type: Car
+Parking Spot Number: 11
+License Plate: ABC1234
+Make and Model: abc1234
+With Carwash
+****** Seneca Valet Parking ******
+*****  Available spots: 94531843 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 3
+*** List of parked vehicles ***
+Vehicle type: Car
+Parking Spot Number: 1
+License Plate: ASD123
+Make and Model: Honda Civic
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 2
+License Plate: AS12
+Make and Model: Honda 125
+With Sidecar
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 3
+License Plate: QWE123
+Make and Model: BMW 320
+With Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 4
+License Plate: ZXC123
+Make and Model: Suzuki 750
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 5
+License Plate: ASDASD
+Make and Model: Ford F150
+Without Carwash
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 6
+License Plate: ZXC
+Make and Model: Ninja 650
+-------------------------------
+Vehicle type: Motorcycle
+Parking Spot Number: 7
+License Plate: QWE
+Make and Model: Ninja H2
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 8
+License Plate: GVAA123
+Make and Model: Tesla Model 3
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 9
+License Plate: QWEASD
+Make and Model: Cadilac XT5
+Without Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 10
+License Plate: ABC123
+Make and Model: abc123
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 11
+License Plate: ABC1234
+Make and Model: abc1234
+With Carwash
+-------------------------------
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: ABC2134
+Make and Model: abcv234
+With Carwash
+-------------------------------
+****** Seneca Valet Parking ******
+*****  Available spots: 94531843 *****
+Parking Menu, select an action:
+1- Park Vehicle
+2- Return Vehicle
+3- List Parked Vehicles
+4- Close Parking (End of day)
+5- Exit Program
+> 5
+This will terminate the program!
+Are you sure? (Y)es/(N)o: y
+Exiting program!
+Saving data into ParkingData.csv
+==191520== Conditional jump or move depends on uninitialised value(s)
+==191520==    at 0x403719: sdds::Parking::~Parking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402B44: runParking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402CE7: main (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520== 
+==191520== Conditional jump or move depends on uninitialised value(s)
+==191520==    at 0x40372D: sdds::Parking::~Parking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402B44: runParking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402CE7: main (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520== 
+==191520== Use of uninitialised value of size 8
+==191520==    at 0x40373E: sdds::Parking::~Parking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402B44: runParking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402CE7: main (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520== 
+==191520== Invalid read of size 8
+==191520==    at 0x40373E: sdds::Parking::~Parking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402B44: runParking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402CE7: main (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==  Address 0xd is not stack'd, malloc'd or (recently) free'd
+==191520== 
+==191520== 
+==191520== Process terminating with default action of signal 11 (SIGSEGV)
+==191520==  Access not within mapped region at address 0xD
+==191520==    at 0x40373E: sdds::Parking::~Parking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402B44: runParking() (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==    by 0x402CE7: main (in /home/aqin1/OOP2441/Milestone6/FINALPROJECTOOP/ms)
+==191520==  If you believe this happened as a result of a stack
+==191520==  overflow in your program's main thread (unlikely but
+==191520==  possible), you can try to increase the size of the
+==191520==  main thread stack using the --main-stacksize= flag.
+==191520==  The main thread stack size used in this run was 8388608.
+==191520== 
+==191520== HEAP SUMMARY:
+==191520==     in use at exit: 440 bytes in 11 blocks
+==191520==   total heap usage: 63 allocs, 52 frees, 19,779 bytes allocated
+==191520== 
+==191520== LEAK SUMMARY:
+==191520==    definitely lost: 400 bytes in 10 blocks
+==191520==    indirectly lost: 0 bytes in 0 blocks
+==191520==      possibly lost: 0 bytes in 0 blocks
+==191520==    still reachable: 40 bytes in 1 blocks
+==191520==         suppressed: 0 bytes in 0 blocks
+==191520== Rerun with --leak-check=full to see details of leaked memory
+==191520== 
+==191520== Use --track-origins=yes to see where uninitialised values come from
+==191520== For lists of detected and suppressed errors, rerun with: -s
+==191520== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+
+Script done on Sun 09 Aug 2020 01:11:43 AM EDT
